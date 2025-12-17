@@ -1,8 +1,7 @@
 [book]
 title = "Dialectic Driven Development"
-authors = ["Eric Adum"]
+author = ["Naseeb Nawaz"]
 language = "en"
-multilingual = false
 src = "src"
 
 [output.html]
