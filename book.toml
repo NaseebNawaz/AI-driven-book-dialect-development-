@@ -1,0 +1,23 @@
+[book]
+title = "Dialectic Driven Development"
+authors = ["Eric Adum"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+default-theme = "light"
+git-repository-url = ""
+
+# Enable link checking as part of `mdbook build` if the plugin is installed.
+[output.linkcheck]
+follow-web-links = false
+traverse-parent-directories = false
+warning-policy = "error"
+exclude = [
+    # Add patterns to exclude if needed
+]
+optional = true
+
+[build]
+create-missing = false
